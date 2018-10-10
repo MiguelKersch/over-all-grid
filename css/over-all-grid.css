@@ -1,0 +1,106 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.home{
+    margin:0 auto;
+    width: 1100px;
+    margin-top: -8px ;
+}
+
+.grid-container{
+     display: grid;
+     grid-template-columns: auto auto auto;
+}
+.header{
+	grid-row: 1;
+    background-image: url("../images/header_bg.png");
+    background-repeat: repeat-x; 
+    height: 112px;
+    grid-column: 1/5;
+}
+.logo {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.banner{
+	grid-row: 2;
+    background-image: url("../images/banner_bg.png");
+    background-repeat: repeat-x; 
+    height: 415px;
+    grid-column: 1/5;
+}
+.bannerImage{
+    margin-top: 21px;
+    margin-left: 50px;
+    grid-row: 2;
+}
+
+.navbar{
+    list-style-type: none;
+    margin-left: 430px;
+    margin-top:-80px;
+    grid-row: 1;
+}
+
+.navbar>li>a{
+    text-decoration: none;
+    float: left;
+    padding:10px;
+    color:grey;
+    font-size: 20px;
+}
+.banner-title {
+	margin-top: -320px;
+	margin-left:770px;
+	color: white;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.banner-tekst {
+	grid-row: 2;
+	color: white;
+	
+	margin-left:770px;
+	margin-right: 100px;
+	font-size:14px;
+	line-height: 20px;
+}
+
+
+
+
+footer {
+	grid-row: 4;
+	background-image: url("../images/footer_bg.png");
+    background-repeat: repeat-x;
+    padding:1%;
+	text-align:center;
+	font-size:100%;
+	color: white;
+}
+.bonus {
+	grid-row: 3;
+	grid-column: 3;
+}
+
+.nivoslider	{
+	grid-row: 3; 
+	grid-column:2; 
+}
+.fadeslider {
+	grid-row: 3;
+	grid-column: 1
+
+}
+.tekst {
+	margin-left: 50px;
+	font-size:14px;
+	line-height: 20px;
+}
+.onderwerptitle {
+	margin-left: 50px;
+	font-size: 20px;
+	line-height:  22px
+}
